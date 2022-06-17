@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BGPApps">
         <activity
+            android:name=".ui.FaceLockActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.FilesActivity"
             android:exported="true" />
         <activity
